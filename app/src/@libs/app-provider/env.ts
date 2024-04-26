@@ -11,7 +11,7 @@ import { UseQueryResult } from 'react-query';
 export function DEFAULT_HIVE_WASM_CLIENT(
   network: NetworkInfo,
 ): HiveQueryClient {
-  if (network.chainID.startsWith('bombay')) {
+  if (network.chainID.startsWith('furya')) {
     return {
       hiveEndpoint: 'https://api.furya.xyz',
       hiveFetcher: defaultHiveFetcher,

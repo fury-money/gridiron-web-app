@@ -18,7 +18,7 @@ export function NEBULA_DEFAULT_WASM_CLIENT(
 export function NEBULA_CONTRACT_ADDRESS(
   network: NetworkInfo,
 ): NebulaContractAddress {
-  if (network.chainID.startsWith('bombay')) {
+  if (network.chainID.startsWith('furya')) {
     // testnet
     return {
       airdrop:
